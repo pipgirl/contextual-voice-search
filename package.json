@@ -1,0 +1,35 @@
+{
+  "name": "conextualsearch-luis-app",
+  "version": "1.0.0",
+  "description": "Intelligent and Contextual Search App Powered by Microsoft Cognitive Services",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Kelsey Huebner",
+  "license": "ISC",
+  "dependencies": {
+    "express": "3.4.8",
+    "socket.io": "^1.4.5"
+  },
+  "keywords": [
+    "cognitiveservices-sample",
+    "contextual search",
+    "search",
+    "natural language",
+    "nlu",
+    "nlp",
+    "natural language processing",
+    "speech recognition",
+    "speech to text",
+    "bing speech",
+    "language understanding",
+    "azuresearch"
+  ],
+  "bugs": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipgirl/contextual-voice-search"
+  }
+}

@@ -1,0 +1,37 @@
+<html>
+<meta name="viewport" content="maximum-scale=1, user-scalable=no">
+
+<head>
+    <title>Contextual Search App</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/speech.1.0.0.js"></script>
+    <script type="text/javascript" src="js/contextualsearch.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <h2>What would you like to do?</h2>
+        <p>Update text here for how to use the LUIS intent-entity pairings<br><br><i> Choose 'Use Microphone' and hit the button below, say your query.
+          </i></p>
+        <input id="useMic" type="checkbox">Use Microphone
+        <button onclick="start()">Send Speech</button>
+        <br><br>
+        <p><i>Try the same thing, but type your query in and hit 'Send Text'</i> </p>
+        <input id="search" />
+        <button id="sendText" onclick="sendText()">Send Text</button>
+        <hr>
+        <div id="displayLuisResults"></div>
+        <div id="displayAzureSearchResults"></div>
+        <br><br>
+        <p>JSON Output:</p>
+        <textarea id="output" style='width:400px;height:200px'></textarea>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Segoe UI', 'Verdana', sans-serif;
+    }
+
+    div#container {
+    position: relative;
+    width: 75vw;
+    margin: auto;
+    padding-top:12px;
+    padding-bottom: 12px;
+    text-align: center;
+    height: 65vh;
+    }
+
+    form {
+    width: 100%;
+    margin: auto;
+    text-align:center;
+    position: relative;
+    }
+    
+
+a {
+    text-decoration: underline;
+    color: black;
+
+}
+
+li {
+    list-style: none;
+}
+
+img#imageinput {
+    max-height: 50vh;
+    max-width: 70vw;   
+}
+
+#imgURL {
+    width:50%;
+    margin:auto;
+    position:relative;
+    text-align: center;
+}
+
+#displayLuisResults {
+     font-weight: bold;
+     font-size: 3vh;
+     margin-top:2vh;
+     margin-bottom:2vh;
+     font-family: 'Titillium Web', sans-serif;
+}
+
+
+#displayAzureSearchResults {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3vh;
+}
